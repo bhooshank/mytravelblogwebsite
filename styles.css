@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+}
+
+.sample {
+    color: red;
+}
+
+.carousel-size-fixed {
+    height: 480px;
+    min-width: 1300px;
+    overflow: hidden;
+}
+
+.page-content {
+    padding: 48px 0px 48px 0px;
+}
+
+.img-size {
+    height: 480px;
+}
+
+.card-size-custom {
+    min-height: 432px;
+    width: 280px;
+    box-shadow: grey;
+}
+.card-size-custom:hover{
+    cursor: pointer;
+    transform: scale(105%);
+}
