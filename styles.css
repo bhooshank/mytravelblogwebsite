@@ -1,5 +1,7 @@
 body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .sample {
@@ -8,7 +10,7 @@ body {
 
 .carousel-size-fixed {
     height: 480px;
-    min-width: 1300px;
+    min-width: 400px;
     overflow: hidden;
 }
 
@@ -21,11 +23,39 @@ body {
 }
 
 .card-size-custom {
-    min-height: 432px;
+    min-height: 392px;
     width: 280px;
     box-shadow: grey;
 }
-.card-size-custom:hover{
+
+.card-size-custom:hover {
     cursor: pointer;
     transform: scale(105%);
+}
+
+/* @media screen and (min-width: 576px) {
+    .card-size-custom{
+
+    }
+    
+} */
+
+@media screen and (min-width: 768px) {
+    .card-size-custom {
+        min-height: 432px;
+        width: 280px;
+        box-shadow: grey;
+    }
+    .img-size {
+        height: 480px;
+    }
+    .page-content {
+        padding: 48px 0px 48px 0px;
+    }
+    .carousel-size-fixed {
+        height: 480px;
+        min-width: 1300px;
+        overflow: hidden;
+    }
+    
 }
